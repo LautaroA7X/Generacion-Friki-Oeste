@@ -1,0 +1,61 @@
+@use "variables" as v;
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+        .info{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        p{
+            text-align: center;
+            color: v.$negro;
+            font-family: v.$fuente;
+            font-size: 30px;
+            text-shadow: v.$sombra-neon-rojo;
+            margin-top: 50px;
+            white-space: pre-line;
+            @include v.tablet{
+                text-align: center;
+            }
+            @include v.mobile{
+                text-align: center;
+            }
+        }
+    }
+    .titulo-imagenes-ilustrativas{
+        display: flex;
+            justify-content: center;
+            font-family: v.$fuente-titulo;
+            font-size: 50px;
+            text-shadow:v.$sombra-neon-verde;
+            -webkit-text-stroke: 1px #0a0a0a;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            @include v.mobile{
+            text-align: center;
+        }
+        }
+        .imagenes-ilustrativas{
+            display: flex;
+            flex-flow: row wrap;
+            gap: 2rem;
+            justify-content: center;
+            .imagen_ilustrativa{
+                height: auto;
+                width: 300px;
+                box-shadow: v.$sombra-neon-rojo;
+                transition: 2s all;
+                &:hover{
+                    scale: 1.25;
+                }
+                @include v.mobile{
+                    height: auto;
+                    width: 150px;
+            }
+            }
+        }
+    
+    }
