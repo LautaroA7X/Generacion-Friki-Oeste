@@ -337,170 +337,60 @@ main .imagenes-ilustrativas .imagen_ilustrativa:hover {
     font-size: 1.25rem;
   }
 }
-.titulo-contacto {
+main .titulo-contacto {
   display: flex;
   justify-content: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-family: tektur;
   text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
-
-.text-contacto {
+main section {
+  display: flex;
+  justify-content: space-around;
+}
+main section .info-generacion-friki {
+  text-align: left;
+}
+main section .info-generacion-friki h2 {
   text-align: center;
-  color: #000000;
-  font-family: roboto;
-  font-size: 30px;
-  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-}
-
-.contenedor-contacto {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 400px;
-  width: 100%;
-}
-.contenedor-contacto .informacion-contacto {
-  display: flex;
-  flex-direction: column;
-  font-size: 24px;
-  gap: 16px;
-  margin-left: 32px;
-  width: 400px;
-}
-.contenedor-contacto .informacion-contacto h2 {
+  font-size: 2.5rem;
   font-family: tektur;
   text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
-  text-align: center;
+  margin-bottom: 50px;
 }
-.contenedor-contacto .informacion-contacto input {
-  width: 100%;
-}
-.contenedor-contacto .informacion-contacto textarea {
-  width: 100%;
-  height: 120%;
-}
-.contenedor-contacto .informacion-contacto label {
-  font-family: tektur;
-}
-.contenedor-contacto .informacion-contacto [type=submit] {
-  background-color: #4cff4c;
-  font-size: 30px;
-  padding: 10px 25px;
-  border-color: black;
-  border-style: groove;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.contenedor-contacto .informacion-contacto [type=reset] {
-  background-color: #4cff4c;
-  font-size: 30px;
-  padding: 10px 25px;
-  border-color: black;
-  border-style: groove;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.mapa {
-  margin-right: 32px;
+main section .info-generacion-friki h3 {
+  font-size: 1.75rem;
   font-family: tektur;
   text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
-  text-align: center;
 }
-.mapa iframe {
-  width: 600px;
-  height: 450px;
-}
-.mapa .horarios-contacto {
-  margin-top: 16px;
-}
-.mapa h3 {
-  margin-bottom: 8px;
-}
-.mapa p {
-  margin: 0;
-  text-align: center;
-  font-size: 30px;
+main section .info-generacion-friki p {
   white-space: pre-line;
-  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+  font-family: roboto;
+  font-size: 1.25rem;
+}
+main section .info-generacion-friki-oeste {
+  text-align: left;
+}
+main section .info-generacion-friki-oeste h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: tektur;
+  text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
+  margin-bottom: 50px;
+}
+main section .info-generacion-friki-oeste h3 {
+  font-size: 1.75rem;
+  font-family: tektur;
+  text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
+}
+main section .info-generacion-friki-oeste p {
+  white-space: pre-line;
+  font-family: roboto;
+  font-size: 1.25rem;
 }
 
-@media (min-width: 480px) and (max-width: 960px) {
-  .contenedor-contacto {
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-  }
-  .contenedor-contacto .informacion-contacto {
-    align-items: center;
-  }
-  .contenedor-contacto .informacion-contacto input {
-    width: 600px;
-    font-size: 1.75rem;
-    text-align: center;
-  }
-  .contenedor-contacto .informacion-contacto textarea {
-    text-align: center;
-    width: 600px;
-    height: 400px;
-    font-size: 1.75rem;
-  }
-  .contenedor-contacto .mapa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 0;
-  }
-  .contenedor-contacto .mapa iframe {
-    width: 400px;
-    height: 400px;
-    display: block;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 300px) and (max-width: 479px) {
-  .contenedor-contacto {
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-  }
-  .contenedor-contacto .informacion-contacto {
-    margin-left: 0;
-  }
-  .contenedor-contacto .informacion-contacto input {
-    width: 100%;
-    font-size: 1.25rem;
-  }
-  .contenedor-contacto .informacion-contacto textarea {
-    width: 100%;
-    height: 400px;
-    font-size: 1.25rem;
-  }
-  .contenedor-contacto .horarios-contacto p {
-    text-align: center;
-    font-size: 25px;
-  }
-  .mapa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 0;
-  }
-  .mapa iframe {
-    width: 300px;
-    height: 300px;
-  }
-  .horarios-contacto {
-    text-align: center;
-  }
-}
 .titulo-datos-de-cuenta {
   display: flex;
   justify-content: center;
