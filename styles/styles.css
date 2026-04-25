@@ -499,6 +499,46 @@ main section .info-generacion-friki-oeste p {
     grid-column: 1/-1;
   }
 }
+main section .producto-carousel {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 500px;
+  margin-left: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.especificaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 220px;
+  margin-left: 50px;
+  font-family: roboto;
+}
+.especificaciones h3 {
+  text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
+}
+.especificaciones p {
+  font-family: roboto;
+  font-size: 1.25rem;
+}
+.especificaciones ul {
+  padding: 0%;
+  font-family: roboto;
+  font-size: 1.25rem;
+  list-style: none;
+}
+.especificaciones .titulo-producto {
+  font-family: tektur;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+  display: flex;
+  font-size: 3rem;
+}
+
 * {
   margin: 0;
   padding: 0;
