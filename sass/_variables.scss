@@ -8,6 +8,7 @@ $gris: #b4b2b2;
 $verde: #4cff4c;
 $rojo: #ff0000;
 $negro: #000000;
+$amarillo: #FFD200;
 $sombra-neon-rojo: 
 0 0 5px $rojo,
 0 0 10px $rojo,
@@ -17,7 +18,12 @@ $sombra-neon-verde:0 0 5px $verde,
     0 0 20px $verde,
     0 0 40px $verde;
 
-
+$sombra-neon-naranja:
+0 0 5px #FF7A00,
+0 0 10px #FF7A00,
+0 0 20px #FF7A00,
+0 0 30px #FFD200,
+0 0 60px #FFD200;
 body{
     background-color: white;
     background-repeat: no-repeat;

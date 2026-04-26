@@ -18,9 +18,9 @@ body {
 
 .nav-link {
   font-family: tektur;
-  font-size: 1.7rem;
-  color: #4cff4c;
-  text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
+  font-size: 2rem;
+  color: #FFD200;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
   -webkit-text-stroke: 1px #0a0a0a;
 }
 
@@ -28,8 +28,8 @@ h1 {
   text-align: center;
   font-family: tektur;
   font-size: 4rem;
-  color: #4cff4c;
-  text-shadow: 0 0 5px #4cff4c, 0 0 10px #4cff4c, 0 0 20px #4cff4c, 0 0 40px #4cff4c;
+  color: #FFD200;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
   -webkit-text-stroke: 1px #0a0a0a;
 }
 @media (min-width: 480px) and (max-width: 960px) {
@@ -60,7 +60,6 @@ footer .derechos-de-autor {
   flex-direction: column;
   align-items: center;
   color: #000000;
-  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
   font-size: 30px;
 }
 footer .redes-sociales {
@@ -534,7 +533,7 @@ main section .producto-carousel {
 }
 .especificaciones .titulo-producto {
   font-family: tektur;
-  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+  text-shadow: 0 0 5px #FF7A00, 0 0 10px #FF7A00, 0 0 20px #FF7A00, 0 0 30px #FFD200, 0 0 60px #FFD200;
   display: flex;
   font-size: 3rem;
 }

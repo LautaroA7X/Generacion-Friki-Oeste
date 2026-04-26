@@ -28,6 +28,7 @@ main{
                 p{
                     font-family: v.$fuente;
                     font-size: 1.25rem;
+                    
                 }
                 ul{
                     padding: 0%;
@@ -37,7 +38,7 @@ main{
                 }
                 .titulo-producto{
                     font-family: v.$fuente-titulo;
-                    text-shadow: v.$sombra-neon-rojo;
+                    text-shadow: v.$sombra-neon-naranja;
                     display: flex;
                     font-size: 3rem;
                 }

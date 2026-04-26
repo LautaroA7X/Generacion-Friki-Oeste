@@ -13,25 +13,17 @@
 
 .nav-link{
     font-family: v.$fuente-titulo;
-    font-size: 1.7rem;
-    color: v.$verde;
-    text-shadow:
-    0 0 5px v.$verde,
-    0 0 10px v.$verde,
-    0 0 20px v.$verde,
-    0 0 40px v.$verde;
+    font-size: 2rem;
+    color: v.$amarillo;
+    text-shadow:v.$sombra-neon-rojo;
     -webkit-text-stroke: 1px #0a0a0a;
 }
 h1{
     text-align: center;
     font-family: v.$fuente-titulo;
     font-size: 4rem;
-    color: v.$verde;
-    text-shadow:
-    0 0 5px v.$verde,
-    0 0 10px v.$verde,
-    0 0 20px v.$verde,
-    0 0 40px v.$verde;
+    color: v.$amarillo;
+    text-shadow:v.$sombra-neon-rojo;
     -webkit-text-stroke: 1px #0a0a0a;
 
     @include v.tablet{
